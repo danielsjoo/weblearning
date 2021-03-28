@@ -1,0 +1,31 @@
+/* I will start with a universal pointer*/
+*{
+    text-align:center;
+}
+
+body{
+    background-color:blueviolet;
+}
+
+.city{
+    font-family:'Courier New', Courier, monospace;
+    color:aqua;
+    font-size:150%;
+}
+
+#blue{
+    color:blue;
+}
+
+.green{
+    color:green;
+}
+
+h2{
+    font-style: italic;
+}
+
+
+h3,h4,h5{
+    font-size:1000%;
+}
