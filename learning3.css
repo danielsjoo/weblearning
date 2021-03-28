@@ -1,0 +1,13 @@
+body {
+    background-color:antiquewhite;
+    font-size:200%;
+}
+
+h2 {
+    color:darkcyan;
+}
+
+p {
+    color:darkorange;
+    font-family:'Times New Roman', Times, serif;
+}
