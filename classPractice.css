@@ -29,3 +29,22 @@ h2{
 h3,h4,h5{
     font-size:1000%;
 }
+
+.margined{
+    margin: 10px;
+}
+
+.paddinged{
+    padding-top:200px;
+    padding-bottom:30px;
+}
+
+.outlined{
+    outline-style: auto;
+    outline-width: 10px;
+    outline-color:aqua;
+}
+
+img.middle{
+    vertical-align:middle;
+}
