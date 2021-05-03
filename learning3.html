@@ -6,17 +6,37 @@
         <meta charset="UTF-8">
         <title>this is learning 3</title>
         <link rel="stylesheet" href="learning3.css">
+        <script>
+            function myFunction(){
+                document.getElementById("demo").innerHTML = "paragraph changed"
+            }
+        </script>
     </head>
 
     <body>
         <h2>This is to practice external CSS</h2>
         <hr>
-        <p>I think I am getting the <i>hang of it</i></p>
+        <p id ="demo">I think I am getting the <i>hang of it</i></p>
+        <button type="button" onclick="myFunction()">Try it</button>
         <a href="https://google.com">this is a <b>link</b></a>
         <br>
         <a href="https://en.wikipedia.org/wiki/polar-bear">
             <img src = "teddyBearImage.jpg" alt="none" width="500">
         </a>
+        <script>
+            class Car {
+                constructor(name,year){
+                    this.name = name;
+                    this.year = year;
+                }
+                age(){
+                    return this.year;
+                }
+            }
+            let myCar = new Car("Ford",2014);
+            console.log('checkpoint');
+            document.write("My car is " + myCar.age() + " years old.");
+        </script>
     </body>
 
 </html>
