@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import htmlCode from "./carComponents.js";
+import Car from "./carComponents.js";
+import Toaster from "./toasterComp.js";
 
-const myfirstelement = <h1>Hello React!</h1>
+const inforaw = {model:"2004", doneness:"burnt"};
 
-hello = function() {
-  return <h1>"Hello World!"</h1>;
-}
-
-ReactDOM.render(hello(),document.getElementById('root'));
-
+ReactDOM.render(<Toaster info = {inforaw}/>, document.getElementById('root'));
